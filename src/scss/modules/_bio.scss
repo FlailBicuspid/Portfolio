@@ -1,3 +1,124 @@
-.me-img {
-  background: blue;
+// .me-img {
+//   background: blue;
+// }
+
+.info-me {
+  background-color: #070707;
+}
+
+.me-img img {
+  width: 100%;
+  height: auto;
+}
+
+.info-me p {
+  color: #cae3ae;
+  font-family: Finlandica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.me-text-info {
+  margin: 10% 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+// music section --------------
+
+.music-section {
+  background-color: #cae3ae;
+}
+
+.music-container {
+  margin-left: -2%;
+  margin-bottom: 2%;
+  display: flex;
+  // flex-direction: wrap;
+  gap: 22px;
+  justify-content: flex-end;
+}
+
+.music-section-name {
+  margin: 3% 2% 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.name-music {
+  font-family: finlandica, sans-serif;
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #171719;
+  position: relative;
+}
+
+// music presentation
+
+.music-presentation {
+  background: #29292d;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  padding-bottom: 67px;
+}
+
+.music-presentation img {
+  width: 100%;
+  height: auto;
+}
+
+.music-pres-text {
+  color: #cae3ae;
+  font-family: Finlandica;
+  margin: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.music-pres-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+// font music
+
+.music-pres-text h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.music-pres-text .artist {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.music-pres-text p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.music-pres-text a {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
 }
