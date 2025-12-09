@@ -1,3 +1,8 @@
+import GLightbox from 'glightbox';
+const lightbox = GLightbox({ 
+      touchNavigation: true,
+    loop: true,
+ });
 // cursor blend effect
 const cursor = document.querySelector(".cursor");
 document.addEventListener("mousemove", (e) => {
