@@ -5,7 +5,7 @@
   background: #171719;
   position: fixed;
   top: 0;
-  bottom: 0;
+  // bottom: 0;
   left: 0;
   z-index: 3;
 }
@@ -61,9 +61,46 @@
 // }
 
 // MEDIA QUERIES
+@media (min-width: 768px) {
+  .sideBar {
+    bottom: 0;
+  }
+}
 
 @media (max-width: 767px) {
   .sideBar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    bottom: -1;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid #cae3ae;
+    border-right: none;
+  }
+  .sideBar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bicuspid-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sideBar h1 {
+    writing-mode: horizontal-tb;
+    color: #cae3ae;
+    font-family: p22-arts-and-crafts, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .sideBar img {
+    width: 50%;
+    height: auto;
+  }
+  .eyed-button {
     display: none;
   }
 }

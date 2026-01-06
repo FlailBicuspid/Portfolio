@@ -153,3 +153,21 @@
   line-height: normal;
   text-decoration: none;
 }
+
+// MEDIA QUERIES
+// @media (min-width: 768px) {
+//   .sideBar {
+//     bottom: 0;
+//   }
+// }
+
+@media (max-width: 767px) {
+  .info-me p {
+    font-size: 15px;
+  }
+  .go-home-button {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+  }
+}
