@@ -67,3 +67,11 @@
 .presentation:hover .presentation-text {
   opacity: 100%;
 }
+
+// MEDIA QUERIES
+
+@media (max-width: 767px) {
+  .presentation-text {
+    opacity: 100%;
+  }
+}

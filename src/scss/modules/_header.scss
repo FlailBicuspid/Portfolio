@@ -27,3 +27,14 @@ header .container-fluid {
   // left: 22%;
   z-index: 1;
 }
+
+// MEDIA QUERIES
+
+@media (max-width: 767px) {
+  .holly {
+    width: 56%;
+    height: auto;
+    top: 0%;
+    left: 10%;
+  }
+}
