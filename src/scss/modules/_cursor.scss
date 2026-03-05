@@ -6,11 +6,17 @@
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: background ease-in-out 0.2s, width ease-in-out 0.4s,
+  transition:
+    background ease-in-out 0.2s,
+    width ease-in-out 0.4s,
     height ease-in-out 0.4s;
   mix-blend-mode: color-dodge;
   z-index: 1000;
 }
+
+// a {
+//   cursor: url(../img/click-cursor.svg), auto;
+// }
 
 * {
   cursor: none;
